@@ -8,7 +8,8 @@ class MyButton extends Component{
         console.log(e);
     }
     render(){
-        return (
+        return ( 
+            
             <div className = 'myButton'>
                 <Button type = 'primary'>默认按钮</Button>
                 <Button type = 'danger'>默认按钮</Button>
